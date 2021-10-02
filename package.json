@@ -1,0 +1,26 @@
+{
+  "name": "sdv-twitch-bot",
+  "version": "1.0.0",
+  "description": "Twitch chat bot for Stardew Valley NPC gift lookups, channel invites, and moderator lockdown commands.",
+  "main": "inicio.js",
+  "scripts": {
+    "start": "node inicio.js",
+    "dev": "nodemon inicio.js",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-functions": "^4.9.0",
+    "node-fetch": "^2.7.0",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "private": true
+}
