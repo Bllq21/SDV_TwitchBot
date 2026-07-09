@@ -97,6 +97,15 @@ environment before deploying. The bot connects when the function module loads.
 - Lockdown uses Twitch chat settings through tmi.js and requires the bot to be a
   moderator in the target channel.
 
+## Troubleshooting
+
+- **The bot does not connect:** check `TWITCH_USERNAME` and make sure
+  `TWITCH_OAUTH_TOKEN` starts with `oauth:`.
+- **`!invite` and `!leave` are ignored:** those commands only work in
+  `BOT_CHANNEL`.
+- **Lockdown fails:** the bot account must be a moderator in the target
+  channel.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

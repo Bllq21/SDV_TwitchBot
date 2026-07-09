@@ -99,6 +99,15 @@ función.
 - El lockdown usa la configuración de chat de Twitch a través de tmi.js y
   requiere que el bot sea moderador en el canal objetivo.
 
+## Solución de problemas
+
+- **El bot no se conecta:** revisá `TWITCH_USERNAME` y asegurate de que
+  `TWITCH_OAUTH_TOKEN` empiece con `oauth:`.
+- **`!invite` y `!leave` no responden:** esos comandos solo funcionan en
+  `BOT_CHANNEL`.
+- **El lockdown falla:** la cuenta del bot debe ser moderadora del canal
+  objetivo.
+
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).
