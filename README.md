@@ -1,5 +1,7 @@
 # Stardew Valley Twitch Bot
 
+**English** · [Español](README.es.md)
+
 A Twitch chat bot built for a Stardew Valley community. It looks up NPC gift
 preferences, manages the channels it joins, and gives moderators a one-command
 lockdown for disruptive chats.
